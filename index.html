@@ -287,6 +287,16 @@
   }
   .info-item .value{color:var(--ink);font-size:15px;line-height:1.5;}
   .info-item .value.placeholder{color:var(--dim);font-style:italic;}
+  .info-item .map-link{
+    display:inline-block;
+    margin-top:6px;
+    font-size:12.5px;
+    color:var(--pink-deep);
+    text-decoration:none;
+    border-bottom:1px solid transparent;
+    transition:border-color .15s ease;
+  }
+  .info-item .map-link:hover{border-bottom-color:var(--pink-deep);}
   .info-cta{
     display:flex;
     align-items:center;
@@ -565,6 +575,7 @@
           <div class="info-item">
             <div class="label">Local do curso</div>
             <div class="value">Quintal 293 — Rua do Lima, Santo Amaro</div>
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=Quintal+293+Rua+do+Lima+Santo+Amaro+Recife" target="_blank" rel="noopener">Como chegar →</a>
           </div>
           <div class="info-item">
             <div class="label">Dia e horário</div>
